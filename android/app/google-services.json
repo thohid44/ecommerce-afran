@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "879396132625",
+    "project_id": "ecommerce-afran",
+    "storage_bucket": "ecommerce-afran.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879396132625:android:97937045a92e03d755deb0",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_afran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879396132625-13i8bbu1keto5gob8msnj3pocbcb7umr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN9t6y_6qm2KJl0Ev2-CcnX6FTGqQefhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879396132625-13i8bbu1keto5gob8msnj3pocbcb7umr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
