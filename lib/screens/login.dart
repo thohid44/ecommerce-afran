@@ -1,4 +1,3 @@
-import 'package:ecommerce_afran/pages/home.dart';
 import 'package:ecommerce_afran/screens/register.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -24,7 +23,7 @@ class _LoginState extends State<Login> {
 
       if (authCredential!.uid.isNotEmpty) {
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => Home()));
+            context, MaterialPageRoute(builder: (context) => Register()));
       } else {
         Fluttertoast.showToast(
             msg: "This is Center Short Toast",
@@ -52,13 +51,13 @@ class _LoginState extends State<Login> {
       child: Scaffold(
         backgroundColor: Colors.deepOrange,
         body: Column(children: [
-          SizedBox(
+          const SizedBox(
             height: 200,
           ),
           Padding(
-            padding: EdgeInsets.only(left: 10, right: 10),
+            padding: const EdgeInsets.only(left: 10, right: 10),
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+              padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
               decoration: const BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
